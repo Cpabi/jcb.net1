@@ -1,0 +1,315 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: rgb(226, 232, 232);
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3.25vmin;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    min-height: 90vh;
+    width: 100%;
+    background-image :  linear-gradient(rgba(3, 39, 112, 0.259),
+    rgba(4, 53, 121, 0.435),rgba(168, 51, 5, 0.531)), url(Firm2.jpg);
+	padding: 1em 0 1em 0;    
+	margin: 0 auto;
+	overflow: scroll;
+	flex-wrap: wrap;
+}
+header h1 {
+	margin-top: 250px;
+	position: relative;
+}
+header p { 
+	MARGIN-TOP: 45px;
+	position: relative;
+}
+.container1 {
+	position: relative;
+	margin-top: 100px;
+}
+.container1 img {
+	display: block;
+	width: 100%;
+}
+nav {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #1a33a1;
+}
+nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    
+}
+nav img{
+    width: 250px;
+    height: 120px;
+    TOP: 2rem;
+}
+nav .links {
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav .links li {
+	list-style: none;
+}
+nav .links a {
+	display: block;
+	padding: 1em;
+	font-size: 2.10vmin;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+nav .icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+nav .icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+.nav a.links, a:hover{
+    background: rgb(0, 8, 255);
+    transition: .1s;
+    color: white;
+    font-size: 23px;
+}
+a.nav a.logo:HOVER{	
+	background:orange;
+}
+
+.jcb-btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 17px;
+    background: transparent;
+    cursor: pointer;
+    padding: 20px 36px;
+    position: relative;
+    top: 3rem;
+	flex:1;
+}
+.jcb-btn:hover{
+    border: 1px solid #e4d4d7;
+    color: black;
+    text-shadow: #b1b7bd;
+    background: #efedfa;
+    transition: 1ms;
+    font-size: 21px;
+    font-style: oblique ;
+    font-weight: bold;
+}
+.news-head h3{
+	font-size: 10vmin;
+	position: relative;
+	text-align: center;
+	font-family:'Times New Roman', Times, serif;
+	color: rgba(0, 68, 255, 0.832);
+}
+
+
+/*---*/
+
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 2100PX;   
+}
+.card{
+    width:100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.356);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+    height: 350px;
+}
+.card .Context{
+    padding: 15px;
+    text-align: center;
+}
+.card .Context p{
+    line-height: 1.5;
+    color: #6a6a6a;
+	margin-top: 20px
+	text-align: justify;
+	margin-left: 20px;
+	font-sized: 7px;
+	margin-right: 20px;
+}
+.card .Context h3{
+    font-weight: 400;
+    margin-top: 15px;
+	font-weight: bold;
+	color: black;
+}
+.card .Context2x h3{
+    font-weight: 400;
+    margin-top: 10px;
+	font-weight: bold;
+	color: black;
+}
+.card .Context2x p{
+    line-height: 1.5;
+    color: #6a6a6a;
+	margin-top: 18px;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+.card .Context a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .Context2x a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .Context a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}	
+.card .Context2x a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}	
+/*---*/
+
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
+	nav .links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: rgba(0,0,0,.8);
+		overflow: scroll;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+
+	nav .links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .links {
+		bottom: 0;
+	}
+	nav .icon-burger {
+		display: block;
+	}
+	nav :checked ~ .icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+    nav a:hover,a.active{
+        background: none;
+        color: rgb(8, 0, 255);
+    }
+}
+/**---**/
+@media all and (max-width: 700px){
+    .header{
+        flex-direction: column;
+    }
+    .header h1{
+		font-size: 10vmin;
+		
+    }
+	.header p{
+		font-size: 12vmin;
+		flex-direction: column;	
+		
+    }
+	.container{
+		flex-direction: column;
+	}
+	.jcb-btn{
+		position: relative;
+	
+	}
+	.jcb-btn:hover{
+		flex-direction: column;
+		
+
+	
+	}
+		
+	
+} 
+
+
